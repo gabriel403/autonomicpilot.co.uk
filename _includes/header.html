@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/css/site.css" />
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-16183577-1']);
+            _gaq.push(['_trackPageview']);
+
+        </script>
+        <script type="text/javascript">
+            var dsl = false,dd = 'disqus_thread';
+            function showthatshizzle() {
+                var ds = 'autonomicpilot';if ( dsl ){return;}dsl = true;
+                document.getElementById(dd).style.display = 'block';
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + ds + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            }
+        </script>
+    </head>
+    <body>
+
+        <div>
+            <div>
+                <div class="header">
+                    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+                    <a class="extra" href="/">Home</a>
+                    <a class="extra" href="/blog/">Blog</a>
+                    <a class="extra" href="/cv.html">CV</a>
+                </div>

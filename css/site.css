@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'BEBAS';
+    src: url('BEBAS-webfont.eot');
+    src: local('BEBAS'), local('BEBAS-webfont'), url('BEBAS-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Franchise';
+    src: url('Franchise-Bold-hinted.eot');
+    src: local('Franchise'), local('Franchise-Bold-hinted'), url('Franchise-Bold-hinted.ttf') format('truetype');
+}
+
+body
+{
+    font-size: 12px;
+    /*font-family: 'BEBAS';*/
+    font-family: "Courier New", Courier, monospace;
+    color: #202f3b;
+    background-color: #701214;
+    word-break: hyphenate;
+}
+
+.extra {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+}
+
+.tags a {
+    font-weight: bold;
+}
+.header .title a {
+    font-size: 5em;
+    text-decoration: none;
+}
+.header a:link, .header a:visited, .header a:hover, .header a:active,
+.footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
+    color: #67859D;
+    font-size: 1.4em;
+    text-decoration:none;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    font-family: 'Franchise';
+    font-size: large;
+    padding-top: 5px;
+    color: #87181c;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.4em;
+}
+
+.header, .footer {
+    font-family: 'Franchise';
+    font-size: medium;
+    text-align: center;
+    color: #67859D;
+    /*width: 33%;*/
+    /*height: 200px;*/
+    margin: 20px auto 0px auto;
+}
+
+.post pre, .post code, code, pre {
+    background-color: #d1dee8;
+    /*padding: 5px;*/
+    color: inherit!important;
+    /*font-family: 'BEBAS';*/
+    font-weight: bold;
+    overflow: auto;
+}
+.post {
+    text-align: left;
+}
+.breakword {
+    word-break: break-word;
+}
+ul {
+    margin-top: 1em;
+}
+li {
+    margin-top: 0em;
+}
+
+.enbolden {
+    font-weight: bold;
+}
+
+.article_link .content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box0n {
+    background-color: #fff;
+    /*border-top: #485C5A solid 4px;*/
+    font-size: 1.2em;
+    margin: 5px 5px 5px 5px;
+    text-align: left;
+    padding: 0% 1% 8% 1%;
+    -moz-border-radius: 10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    border-radius: 10px; /* CSS3 */
+    /*font-weight: bold;*/
+}
+
+.cv {
+    width: 66%;
+    margin: 0px auto 15px auto;
+}
+
+.box0n ul li {
+    list-style-type: none;
+}
+.article_link {
+    /*height: 40px;*/
+    /*min-width: 200px;*/
+}
+.article_content {
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+#right {
+    float: left;
+    width: 19%;
+}
+
+#left {
+    width: 20%;
+    margin-left: 5px;
+}
+#main {
+    width: 60%;
+    margin: 0px;
+}
+#main > div {
+    padding: 0% 1% 0% 1%;
+}
+#main img {
+    max-width: 100%;
+}
+
+#right > h2 {
+    font-family: 'Henny Penny', cursive;
+}
+
+#content_outer {
+    margin: 0px auto auto auto;
+    width: 100%;
+}
+
+#main {
+    -moz-border-radius: 10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    border-radius: 10px; /* CSS3 */
+}
+
+#disqus_thread {
+    display: none;
+}
+
+a:link, a:visited, a:hover , a:active {
+    color: #87181c;
+}
+
+.float_left
+{
+    float: left;
+}
+.float_right
+{
+    float: right;
+}
+.clear_both {
+    clear: both;
+}
+
+.full_width {
+    width: 100%;
+}
+.third_width {
+    width: 30%;
+}
+
+@media screen and (max-width: 1180px) {
+    #right {
+        display: none;
+    }
+
+    #main {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header > div {
+        float: none;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .header > a {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #main {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        clear: both;
+    }
+
+    #left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .article_link {
+        width: 200px;
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /*Add stuff for select b0xen*/
+}
+
+h4[id^=""] {
+    color: red;
+}

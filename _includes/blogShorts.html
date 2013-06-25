@@ -1,0 +1,13 @@
+{% for post in site.posts %}
+<div class="article_link box0n">
+    <h2><a href="#{{ post.title }}">{{ post.title }}</a></h2>
+    <div class='content'>
+        <div class='enbolden'>Static:</div>
+        <div class='breakword'><a class="article_link_main" href='{{ post.url }}'>link</a></div>
+        <div class='enbolden'>Published:</div>
+        <div class='breakword'>{{ post.date | date_to_string }}</div>
+        <div class='enbolden'>Tags:</div>
+        <div class="breakword article_tags">{{ post.tags | array_to_sentence_string }}</div>
+    </div>
+</div>
+{% endfor %}

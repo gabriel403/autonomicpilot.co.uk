@@ -1,0 +1,18 @@
+---
+layout: bloglist
+title: Tags
+---
+<div class="box0n">
+{% for tag in site.tags %}
+    <h1><a name="{{ tag | first | cgi_escape }}">{{ tag | first }}</a></h1>
+    <ul class="postList">
+    {% for posts in tag %}
+        {% for post in posts %}
+            <li class="nested">
+                <a href="{{ post.url }}" title="{{ post.excerpt }}"><span>{{ post.date | date:"%F" }}</span> {{ post.title }}</a>
+            </li>
+        {% endfor %}
+    {% endfor %}
+    </ul>
+{% endfor %}
+</div>
