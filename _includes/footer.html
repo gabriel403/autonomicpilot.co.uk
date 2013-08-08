@@ -1,21 +1,40 @@
-                <br class='clear_both' />
-                <div class="footer">
-                    <div class="contact">
-                        <p>
-                            Gabriel Baker<br />
-                            Dev Op/Technical Lead/Web Developer<br />
-                            gabriel@autonomicpilot.co.uk
-                        </p>
-                    </div>
-                    <div class="contact">
-                        <p>
-                            <a href="http://github.com/gabriel403/">github.com/gabriel403</a><br />
-                            <a href="http://twitter.com/gabriel403/">twitter.com/gabriel403</a><br />
-                        </p>
-                    </div>
+            <br class='clear_both' />
+            <div class="footer">
+                <div class="contact">
+                    <p>
+                        Gabriel Baker<br />
+                        Dev Op/Technical Lead/Web Developer<br />
+                        gabriel@autonomicpilot.co.uk
+                    </p>
+                </div>
+                <div class="contact">
+                    <p>
+                        <a href="http://github.com/gabriel403/">github.com/gabriel403</a><br />
+                        <a href="http://twitter.com/gabriel403/">twitter.com/gabriel403</a><br />
+                    </p>
                 </div>
             </div>
         </div>
+
+        <script src="/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("header a.home").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#home'});
+            });
+
+            $("header a.blog").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#blog_start'});
+            });
+
+            $("header a.cv").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#cv_start'});
+            });
+        });
+        </script>
         <script type="text/javascript" src="/js/ga.js"></script>
     </body>
 </html>

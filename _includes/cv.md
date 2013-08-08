@@ -1,9 +1,4 @@
----
-layout: default
-title: Autonomicpilot - CV
----
-
-<div markdown="1" class="box0n cv">
+#CV
 
 #Personal Statment
 
@@ -39,4 +34,3 @@ After discovering the wonders of puppet and vagrant (and how github use puppet t
 
 ####PHPCI
 
-</div>

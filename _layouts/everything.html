@@ -1,0 +1,15 @@
+{% include header.html %}
+            <div class='main'>
+                <div id="content_outer">
+                    {% capture about %}{% include about.md %}{% endcapture %}
+                    <div markdown="1" class='add_buffer box0n' id='about_me'>
+                        {{ about | markdownify }}
+                    </div>
+                    {% include blogList.html %}
+                    {% capture cv %}{% include cv.md %}{% endcapture %}
+                    <div markdown="1" class="box0n add_buffer" id='cv_start'>
+                        {{ cv | markdownify }}
+                    </div>
+                </div>
+            </div>
+{% include footer.html %}
