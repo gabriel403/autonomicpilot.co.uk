@@ -9,6 +9,43 @@
     src: local('Franchise'), local('Franchise-Bold-hinted'), url('Franchise-Bold-hinted.ttf') format('truetype');
 }
 
+#social_links a.twitter{
+    background-image:url('/css/twitter-icon.png');
+}
+
+#social_links a.linkedin{
+    background-image:url('/css/linkedin-icon.png');
+}
+
+#social_links a.github{
+    background-image:url('/css/github-6-icon.png');
+}
+
+#social_links a.so{
+    background-image:url('/css/stackoverflow-icon.png');
+}
+
+#social_links a:hover.twitter{
+    background-image:url('/css/twitter-icon-white.png');
+}
+
+#social_links a:hover.linkedin{
+    background-image:url('/css/linkedin-icon-white.png');
+}
+
+#social_links a:hover.github{
+    background-image:url('/css/github-6-icon-white.png');
+}
+
+#social_links a:hover.so{
+    background-image:url('/css/stackoverflow-icon-white.png');
+}
+
+#social_links a{
+    padding-left: 32px;
+    padding-top: 5px;
+}
+
 body
 {
     font-size: 12px;
