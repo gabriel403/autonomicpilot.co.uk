@@ -61,20 +61,26 @@ a:link, a:visited, a:hover , a:active {
     color: #87181c;
 }
 
-nav {
-    overflow: auto;
-}
-
 #social_links {
     padding-top: 13px;
-    padding-left: 400px;
+    width: 200px;
+    display: inline-block;
 }
 
 .small .title {
     float: left;
+    display: inline-block;
+    width: 300px;
 }
 .small nav {
     float: right;
+    display: inline-block;
+    width: 200px;
+    padding-top: 13px;
+}
+.small nav div {
+    float: left;
+    display: inline-block;
 }
 
 header, .footer {
@@ -92,14 +98,6 @@ header, .footer {
 }
 .post {
     text-align: left;
-}
-
-nav{
-    width: 300px;
-    margin: 0 auto;
-}
-nav li {
-    float: left;
 }
 
 .enbolden {
@@ -215,4 +213,22 @@ h2 {
 }
 h3 {
     font-size: 1.0em;
+}
+
+
+@media all and (max-width: 599px) {
+    #social_links {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px) and (min-width: 600px) {
+    .small .title, .small nav, #social_links {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+    }
+    .add_buffer {
+        padding-top: 136px;
+    }
 }
