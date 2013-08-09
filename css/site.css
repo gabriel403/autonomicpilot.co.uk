@@ -220,6 +220,20 @@ h3 {
     #social_links {
         display: none;
     }
+    .small .title, .small nav, #social_links {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 530px) {
+    #social_links {
+        display: none;
+    }
+    .add_buffer {
+        padding-top: 115px;
+    }
 }
 
 @media all and (max-width: 800px) and (min-width: 600px) {
