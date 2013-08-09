@@ -8,6 +8,9 @@
     src: url('Franchise-Bold-hinted.eot');
     src: local('Franchise'), local('Franchise-Bold-hinted'), url('Franchise-Bold-hinted.ttf') format('truetype');
 }
+a:hover {
+    color: white!important;
+}
 
 #social_links a.twitter{
     background-image:url('/css/twitter-icon.png');
