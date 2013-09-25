@@ -8,8 +8,76 @@
     src: url('Franchise-Bold-hinted.eot');
     src: local('Franchise'), local('Franchise-Bold-hinted'), url('Franchise-Bold-hinted.ttf') format('truetype');
 }
+h1, h2, h3 {
+    color: #87181c;
+}
+.alt_colour h1, .alt_colour h2, .alt_colour h3,
+.alt_colour a:link, .alt_colour a:visited, .alt_colour a:hover , .alt_colour a:active {
+    color: #284A7E;
+}
+.article_link {
+    background-color: #67859D;
+    color: #E1DED0;
+}
+
+.alt_colour {
+    background-color: #7794BF;
+    color: #284A7E;
+}
+.post pre, .post code, code, pre {
+    background-color: #d1dee8;
+    color: #284A7E;
+}
+
+header, .footer {
+    color: #67859D;
+}
+
+body
+{
+    color: #202f3b;
+    background-color: #284A7E;
+}
+
+#content_outer {
+    background-color: #284A7E;
+}
+
 a:hover {
     color: white!important;
+}
+
+#about_me h1, #cv_start h1, #about_me h2, #cv_start h2 {
+    color: #FFA200;
+}
+#about_me, #cv_start {
+    color: #BF8B30;
+}
+#about_me a:link, #about_me a:visited, #about_me a:hover, #about_me a:active,
+#cv_start a:link, #cv_start a:visited, #cv_start a:hover, #cv_start a:active {
+    color: #BF8B30;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #701214;
+}
+
+header .title a {
+    text-decoration: none;
+}
+
+header a:link, header a:visited, header a:hover, header a:active,
+.footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
+    color: #67859D;
+    font-size: 1.4em;
+    text-decoration:none;
+}
+
+a:link, a:visited, a:hover , a:active {
+    color: #87181c;
 }
 
 #social_links a.twitter{
@@ -53,8 +121,6 @@ body
 {
     font-size: 12px;
     font-family: "Courier New", Courier, monospace;
-    color: #202f3b;
-    background-color: #701214;
     word-break: hyphenate;
 }
 .add_buffer {
@@ -68,37 +134,6 @@ body
 
 .tags a {
     font-weight: bold;
-}
-#about_me h1, #cv_start h1, #about_me h2, #cv_start h2 {
-    color: #FFA200;
-}
-#about_me, #cv_start {
-    color: #BF8B30;
-}
-#about_me a:link, #about_me a:visited, #about_me a:hover, #about_me a:active,
-#cv_start a:link, #cv_start a:visited, #cv_start a:hover, #cv_start a:active {
-    color: #BF8B30;
-}
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    background: #701214;
-}
-
-header .title a {
-    text-decoration: none;
-}
-
-header a:link, header a:visited, header a:hover, header a:active,
-.footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
-    color: #67859D;
-    font-size: 1.4em;
-    text-decoration:none;
-}
-a:link, a:visited, a:hover , a:active {
-    color: #87181c;
 }
 
 #social_links {
@@ -115,7 +150,7 @@ a:link, a:visited, a:hover , a:active {
 .small nav {
     float: right;
     display: inline-block;
-    width: 200px;
+    width: 250px;
     padding-top: 13px;
 }
 .small nav div {
@@ -127,12 +162,9 @@ header, .footer {
     font-family: 'Franchise';
     font-size: medium;
     text-align: center;
-    color: #67859D;
 }
 
 .post pre, .post code, code, pre {
-    background-color: #d1dee8;
-    color: inherit!important;
     font-weight: bold;
     overflow: auto;
 }
@@ -151,7 +183,8 @@ header, .footer {
 .box0n {
     max-width: 960px;
     margin: 0px auto auto auto;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bold;
     text-align: left;
     padding-bottom: 1%;
     -moz-border-radius: 10px; /* Firefox */
@@ -159,22 +192,10 @@ header, .footer {
     border-radius: 10px; /* CSS3 */
 }
 
-.alt_colour {
-    background-color: #FFA200;
-}
-
-.blog_list {
-    height: 145px;
-    overflow: scroll;
-    background: #701214;
-    position: fixed;
-}
-
 .article_link {
     display: block;
-    height: 50px;
+    height: 85px;
     width: 30%;
-    background-color: #67859D;
     margin: 0px 5px 5px 5px;
     text-align: left;
     padding: 0% 1% 8% 1%;
@@ -196,7 +217,6 @@ header, .footer {
 #content_outer {
     margin: 0px auto auto auto;
     width: 100%;
-    background-color: #284A7E;
 }
 
 .main {
@@ -243,8 +263,8 @@ h1, h2, h3 {
     font-size: large;
     font-weight: lighter;
     padding-top: 5px;
-    color: #87181c;
 }
+
 h1 {
     font-size: 1.8em;
 }
