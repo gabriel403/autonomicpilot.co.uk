@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Converting SVN repos to Git
+title: A Howto on Converting SVN repos to Git
 tags:
 - svn
 - git
@@ -77,5 +77,5 @@ Then we can add our new remote and push our branches and tags to it
     git push origin --all
     git push origin --tags
 
-And now we have you repo, covnerted from SVN to Git and hosted on Github.
+And now we have you repo, converted from SVN to Git and hosted on Github.
 Enjoy!
