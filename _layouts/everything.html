@@ -11,8 +11,10 @@
                         {{ cv | markdownify }}
                     </div>
                     {% capture portfolio %}{% include portfolio.md %}{% endcapture %}
-                    <div markdown="1" class="box0n add_buffer" id='portfolio_start'>
-                        {{ portfolio | markdownify }}
+                    <div class="alt_colour add_buffer" id='portfolio_start'>
+                        <div markdown="1" class="box0n">
+                            {{ portfolio | markdownify }}
+                        </div>
                     </div>
                 </div>
             </div>

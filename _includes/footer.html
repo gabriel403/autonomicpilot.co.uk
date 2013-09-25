@@ -24,56 +24,52 @@
             $('html,body').animate({scrollTop: aTag.offset().top},'slow');
         }
 
-        $(document).ready(function() {
-            $("header a.home").click(function(e){
-                // event.preventDefault();
-                scrollToAnchor('#home');
-                return false;
-            });
-
-            $("header a.blog").click(function(e){
-                // event.preventDefault();
-                scrollToAnchor('#blog_start');
-                return false;
-            });
-
-            $("header a.cv").click(function(e){
-                // event.preventDefault();
-                scrollToAnchor('#cv_start');
-                return false;
-            });
-
-            $("header a.portfolio").click(function(e){
-                // event.preventDefault();
-                scrollToAnchor('#portfolio_start');
-                return false;
-            });
-        });
-        </script>
-
-        <script src="/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
         // $(document).ready(function() {
         //     $("header a.home").click(function(e){
         //         // event.preventDefault();
-        //         $.smoothScroll({scrollTarget: '#home'});
+        //         scrollToAnchor('#home');
         //     });
 
         //     $("header a.blog").click(function(e){
         //         // event.preventDefault();
-        //         $.smoothScroll({scrollTarget: '#blog_start'});
+        //         scrollToAnchor('#blog_start');
         //     });
 
         //     $("header a.cv").click(function(e){
         //         // event.preventDefault();
-        //         $.smoothScroll({scrollTarget: '#cv_start'});
+        //         scrollToAnchor('#cv_start');
         //     });
 
         //     $("header a.portfolio").click(function(e){
         //         // event.preventDefault();
-        //         $.smoothScroll({scrollTarget: '#portfolio_start'});
+        //         scrollToAnchor('#portfolio_start');
         //     });
         // });
+        </script>
+
+        <script src="/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $("header a.home").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#home'});
+            });
+
+            $("header a.blog").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#blog_start'});
+            });
+
+            $("header a.cv").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#cv_start'});
+            });
+
+            $("header a.portfolio").click(function(e){
+                // event.preventDefault();
+                $.smoothScroll({scrollTarget: '#portfolio_start'});
+            });
+        });
         </script>
         <script type="text/javascript" src="/js/ga.js"></script>
     </body>
