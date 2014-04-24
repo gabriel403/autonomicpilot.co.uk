@@ -16,13 +16,13 @@ h1, h2, h3 {
     color: #284A7E;
 }
 .article_link {
-    background-color: #67859D;
-    color: #E1DED0;
+/*    background-color: #67859D;*/
+    color: #67859D;
 }
 
 .alt_colour {
-    background-color: #7794BF;
-    color: #284A7E;
+    background-color: #F0F7FF;
+/*    color: #DFBD83;*/
 }
 .post pre, .post code, code, pre {
     background-color: #d1dee8;
@@ -35,12 +35,11 @@ header, .footer {
 
 body
 {
-    color: #202f3b;
-    background-color: #284A7E;
+/*    background-color: #284A7E;*/
 }
 
 #content_outer {
-    background-color: #284A7E;
+    background-color: #FFF8F0;
 }
 
 a:hover {
@@ -51,7 +50,8 @@ a:hover {
     color: #FFA200;
 }
 #about_me, #cv_start {
-    color: #BF8B30;
+    color: black;
+/*    color: #BF8B30;*/
 }
 #about_me a:link, #about_me a:visited, #about_me a:hover, #about_me a:active,
 #cv_start a:link, #cv_start a:visited, #cv_start a:hover, #cv_start a:active {
@@ -62,7 +62,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0px;
-    background: #701214;
+    background: #FFF8F0;
 }
 
 header .title a {
@@ -71,8 +71,8 @@ header .title a {
 
 header a:link, header a:visited, header a:hover, header a:active,
 .footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
-    color: #67859D;
-    font-size: 1.4em;
+    color: black;
+    font-size: 1.1em;
     text-decoration:none;
 }
 
@@ -113,21 +113,21 @@ a:link, a:visited, a:hover , a:active {
 }
 
 #social_links a{
-    padding-left: 32px;
+    padding-left: 30px;
     padding-top: 5px;
 }
 
 body
 {
     font-size: 12px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     word-break: hyphenate;
 }
 .add_buffer {
     padding-top: 61px;
 }
 .extra {
-    margin-left: 10px;
+/*    margin-left: 10px;*/
     margin-right: 10px;
     border-bottom: 1px solid white;
 }
@@ -159,13 +159,12 @@ body
 }
 
 header, .footer {
-    font-family: 'Franchise';
     font-size: medium;
     text-align: center;
 }
 
 .post pre, .post code, code, pre {
-    font-weight: bold;
+/*    font-weight: bold;*/
     overflow: auto;
 }
 .post {
@@ -184,7 +183,7 @@ header, .footer {
     max-width: 960px;
     margin: 0px auto auto auto;
     font-size: 1.3em;
-    font-weight: bold;
+/*    font-weight: bold;*/
     text-align: left;
     padding-bottom: 1%;
     -moz-border-radius: 10px; /* Firefox */
@@ -259,7 +258,7 @@ li {
 
 h1, h2, h3 {
     margin-top: 0px;
-    font-family: 'Franchise';
+    font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     font-size: large;
     font-weight: lighter;
     padding-top: 5px;

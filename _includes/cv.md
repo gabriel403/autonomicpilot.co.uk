@@ -7,12 +7,7 @@
 		<tr>
 			<td>Gabriel Baker</td>
 			<td>gabriel@autonomicpilot.co.uk</td>
-			<td>129 Barclay St</td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
 			<td>+44 7894 387832</td>
-			<td>LE3 0JE</td>
 		</tr>
 	</tbody>
 </table>
@@ -53,4 +48,3 @@ After discovering the wonders of puppet and vagrant (and how github use puppet t
 ####PHPCI
 
 I work in my spare to help on the PHPCI project. This is a PHP based continuous integration server, with plugins for various PHP tools, such as PHPUnit, Mess Detector, Code Sniffer, PHP-CS-Fixer and lots more. It works with local and remote respositories, including building on demand and when pushes to github/gitlab happen.
-
