@@ -1,3 +1,4 @@
 name: Autonomicpilot
 timezone: europe/london
 pygments: true
+markdown: kramdown
